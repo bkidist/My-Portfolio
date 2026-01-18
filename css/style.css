@@ -2,6 +2,7 @@
 body{
     font-family: 'Josefin Sans', sans-serif;
     font-weight: 400;
+    
 }
 /* styling menu icon */
 .nav-menu{
@@ -381,7 +382,9 @@ footer .link-group a:hover{
 .social-links .linkedin{
     color: #255afc;
 }
-.social-links button:hover{
+
+.social-links button:hover,
+.social-links a:hover{
     color: #fff;
     transform: translateY(-20px);
     transition-duration: 1s;
@@ -421,3 +424,6 @@ footer .link-group a:hover{
 .skills {
   margin-top: 50px;
 }
+
+
+

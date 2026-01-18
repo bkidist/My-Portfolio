@@ -33,8 +33,14 @@
 
     <!-- for adding animation to website we have use AOS library 
     AOS Library css file cdn link -->
-    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-
+    <!--<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <script>
+     AOS.init({
+    duration: 600,
+    easing: 'ease-in-out',
+    once: true
+     });
+    </script> -->
     <!-- jquery cdn link  -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
   </head>
@@ -127,7 +133,7 @@
           <div class="service-card">
             <div class="img">
               <img
-                src="images/we-icon.png"
+                src="images/web-development_0wdh.png"
                 class="w-25 img-fluid img"
                 alt=""
               />
@@ -146,7 +152,7 @@
           <div class="service-card">
             <div class="img">
               <img
-                src="images/design-icon.png"
+                src="images/creative-flow.png"
                 class="w-25 img-fluid img"
                 alt=""
               />
@@ -165,7 +171,7 @@
           <div class="service-card">
             <div class="img">
               <img
-                src="images/web-icon.png"
+                src="images/mobile-development.png"
                 class="w-25 img-fluid img"
                 alt=""
               />
@@ -264,18 +270,19 @@ With experience across a variety of fictional projects such as portfolios, busin
       <div id="myBtnContainer" class="text-center mt-4">
         <!-- here we will create custom attribute using data- for filtering -->
         <button class="filter-item" data-filter="all">All</button>
-        <button class="filter-item" data-filter="game">Game</button>
-        <button class="filter-item" data-filter="webapp">Web App</button>
+        <button class="filter-item" data-filter="Portfolio">Portfolio</button>
         <button class="filter-item" data-filter="website">Website</button>
-        <button class="filter-item" data-filter="brand">Brand</button>
+        <button class="filter-item" data-filter="webapp">Web App</button>
+        <button class="filter-item" data-filter="ecommerce">E-Commerce</button>
+        
       </div>
       <div class="portfolio-body">
         <div class="row justify-content-evenly px-4">
-          <div class="post col-md-4 game all col-10 mt-3 mt-md-0" data-aos="fade-up">
+          <div class="post col-md-4 Portfolio all col-10 mt-3 mt-md-0" data-aos="fade-up">
             <div class="card">
-              <img src="images/web.png" class="card-img-top" alt="..." />
+              <img src="images/myportfolio_5.png" class="card-img-top" alt="..." />
               <div class="card-body text-center">
-                <h4 class="card-title">Monaliza Website</h4>
+                <h4 class="card-title">Portfolio Website</h4>
                 <span class="badge bg-secondary badge-pill">HTML&CSS</span>
                 <span class="badge bg-secondary badge-pill">JavaScript</span>
                 <span class="badge bg-secondary badge-pill mb-2">Website</span
@@ -287,12 +294,12 @@ With experience across a variety of fictional projects such as portfolios, busin
           <div class="post col-md-4 website all col-10 mt-3 mt-md-0" data-aos="fade-up">
             <div class="card">
               <img
-                src="images/web-2.png"
-                class="card-img-top"
+                src="images/app-2.png"
+                class="card-img-top" 
                 alt="..."
               />
               <div class="card-body text-center">
-                <h4 class="card-title">Campany App</h4>
+                <h4 class="card-title">Company Website</h4>
                 <span class="badge bg-secondary badge-pill">HTML&CSS</span>
                 <span class="badge bg-secondary badge-pill">JavaScript</span>
                 <span class="badge bg-secondary badge-pill mb-2">Website</span
@@ -301,11 +308,13 @@ With experience across a variety of fictional projects such as portfolios, busin
               </div>
             </div>
           </div>
-          <div class="post col-md-4 webapp all col-10 mt-3 mt-md-0" data-aos="fade-up">
-            <div class="card">
-              <img src="images/app-2.png" class="card-img-top" alt="..." />
+          <div class="post col-md-4 ecommerce all col-10 mt-3 mt-md-0" data-aos="fade-up">
+            <div class="card-img-wrapper">
+              <img src="images/monaliza.png" class="card-img-top"  alt="..." />
+              <br>
+              <br>
               <div class="card-body text-center">
-                <h4 class="card-title">Marlog Web</h4>
+                <h4 class="card-title"> E-Commerce Website </h4>
                 <span class="badge bg-secondary badge-pill">HTML&CSS</span>
                 <span class="badge bg-secondary badge-pill">JavaScript</span>
                 <span class="badge bg-secondary badge-pill mb-2">WebApp</span
@@ -316,9 +325,10 @@ With experience across a variety of fictional projects such as portfolios, busin
           </div>
         </div>
         <div class="row justify-content-evenly mt-4 px-4">
-          <div class="post col-md-4 game all col-10 mt-3 mt-md-0" data-aos="fade-up">
+          <div class="post col-md-4 webapp all col-10 mt-3 mt-md-0" data-aos="fade-up">
             <div class="card">
-              <img src="images/web.png" class="card-img-top" alt="..." />
+              <img src="images/helpdesk.png" class="card-img-top"  alt="..." />
+              <br>
               <div class="card-body text-center">
                 <h4 class="card-title">Web App</h4>
                 <span class="badge bg-secondary badge-pill">HTML&CSS</span>
@@ -333,7 +343,7 @@ With experience across a variety of fictional projects such as portfolios, busin
             <div class="card">
               <img src="images/web-2.png" class="card-img-top" alt="..." />
               <div class="card-body text-center">
-                <h4 class="card-title">Application</h4>
+                <h4 class="card-title">Website</h4>
                 <span class="badge bg-secondary badge-pill">HTML&CSS</span>
                 <span class="badge bg-secondary badge-pill">JavaScript</span>
                 <span class="badge bg-secondary badge-pill mb-2">App</span
@@ -342,15 +352,15 @@ With experience across a variety of fictional projects such as portfolios, busin
               </div>
             </div>
           </div>
-          <div class="post col-md-4 all col-10 mt-3 mt-md-0" data-aos="fade-up">
+          <div class="post col-md-4 all website col-10 mt-3 mt-md-0" data-aos="fade-up">
             <div class="card">
               <img
-                src="images/app-2.png"
+                src="images/BlueBak.png"
                 class="card-img-top"
                 alt="..."
               />
               <div class="card-body text-center">
-                <h4 class="card-title">Marlog Website</h4>
+                <h4 class="card-title">Company Website</h4>
                 <span class="badge bg-secondary badge-pill">HTML&CSS</span>
                 <span class="badge bg-secondary badge-pill">JavaScript</span>
                 <span class="badge bg-secondary badge-pill mb-2">Web App</span
@@ -368,7 +378,7 @@ With experience across a variety of fictional projects such as portfolios, busin
     <section class="testimonial mt-5 pt-5" id="testimonial">
       <div class="row justify-content-evenly">
         <div class="col-md-4 col-10" data-aos="slide-right">
-          <img src="images/tastimonials-img.png" class="img-fluid" alt="" />
+          <img src="images/customer_2 (1).png" class="img-fluid" alt="" />
         </div>
         <div class="col-md-6 col-10 mt-5" data-aos="slide-left">
           <div class="heading">
@@ -392,7 +402,7 @@ With experience across a variety of fictional projects such as portfolios, busin
                         She understood our vision quickly and delivered a modern, 
                         responsive website that exceeded our expectations.”
                       </p>
-                      <h4>Sarah M.</h4>
+                      <h4>Mesfin B.</h4>
                       <small class="fs-6 text-muted">Startup Founder</small>
                     </div>
                   </div>
@@ -424,7 +434,7 @@ With experience across a variety of fictional projects such as portfolios, busin
                         experience. Communication was smooth, and the project was 
                         delivered on time.”
                       </p>
-                      <h4>Amanuel T.</h4>
+                      <h4>Habtamu K.</h4>
                       <small class="fs-6 text-muted">Marketing Manager</small>
                     </div>
                   </div>
@@ -862,13 +872,26 @@ Careful attention during each stage ensures the final product meets both user ne
       </div>
       <div class="social-links mt-5" data-aos="fade-up">
         <button href="" class="rounded-pill linkedin">
-          <i class="bi bi-linkedin"></i>
+          <a href="https://www.linkedin.com/in/kidist-belay-3a922b87/" 
+            target="_blank"
+            class="rounded-pill linkedin">
+            <i class="bi bi-linkedin"></i>
+          </a>
         </button>
         <button href="" class="rounded-pill whatsapp">
-          <i class="bi bi-whatsapp"></i>
+          <a href="https://wa.me/251912345678" 
+            target="_blank"
+            class="rounded-pill whatsapp">
+            <i class="bi bi-whatsapp"></i>
+          </a>
         </button>
         <button href="" class="rounded-pill github">
-          <i class="bi bi-github"></i>
+          <a href="https://github.com/bkidist?tab=repositories" 
+            target="_blank"
+            class="rounded-pill github">
+            <i class="bi bi-github"></i>
+          </a>
+          
         </button>
       </div>
       <hr class="text-muted my-4" />
